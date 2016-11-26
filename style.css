@@ -20,11 +20,11 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
-	color: #656D6D;
+	color: #B94600;
 	word-wrap: break-word;
 	line-height: 1.9;
 	letter-spacing: 1px;
-	background-color: #F5F9F8;
+	background-color: #28080B;
 	font-weight: 300;
 	text-rendering: optimizeLegibility;
 }
@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #272727;
+	color: #B94600;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 300;
 	margin-top: 20px;
@@ -53,6 +53,7 @@ blockquote {
     margin-left: 0;
 }
 p {
+	color: #B94600;
 	margin-bottom: 20px;
 }
 h4 {
@@ -67,7 +68,7 @@ table {
 	border: 1px solid #e0e0e0;
 }
 th {
-	background-color: #f7f7f7;
+	background-color: #28080B;
 }
 table > thead > tr > th,
 table > tbody > tr > th,
@@ -87,9 +88,18 @@ table > tbody > tr > td,
 table > tfoot > tr > td {
 	border: 1px solid #dddddd;
 }
+
+.postmail{
+position: absolute;
+left: 40%;
+}
 /*--------------------------------------------------------------
 Forms
 --------------------------------------------------------------*/
+.contact-field{
+	width: 20%;
+}
+
 button,
 input,
 select,
@@ -106,8 +116,8 @@ input[type="reset"],
 input[type="submit"] {
 	font-size: 14px;
 	padding: 12px 30px;
-	border: 1px solid #fcd088;
-	color: #fcd088;
+	border: 1px solid #B94600;
+	color: #B94600;
 	text-transform: uppercase;
 	letter-spacing: 4px;
 	background-color: transparent;
@@ -128,7 +138,7 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	background-color: #fcd088;
+	background-color: #B94600;
 	text-decoration: none;
 	color: #333;
 }
@@ -178,6 +188,20 @@ textarea {
 	border: 1px solid #ebebeb;
 	border-radius: 3px;
 	font-weight: 400;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #A3A099;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #A3A099;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #A3A099;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #A3A099;
 }
 
 input[type="text"]:focus,
@@ -516,7 +540,7 @@ select {
 }
 .widget-area .widget,
 .widget-area .widget a {
-	color: #656D6D;
+	color: #B94600;
 }
 .widget-area .widget-title {
 	text-transform: uppercase;
@@ -714,8 +738,8 @@ select {
 .hentry {
 	margin: 0;
 	padding: 60px;
-	background-color: #fff;
-	border: 1px solid #F2F2F3;
+	background-color: #28080B;
+	border: 1px solid #28080B;
 	margin-bottom: -1px;
 }
 
@@ -815,7 +839,7 @@ select {
 }
 .entry-title,
 .entry-title a {
-	color: #272727;
+	color: #B94600;
 }
 .page .entry-title {
 	margin-bottom: 30px;
@@ -1475,10 +1499,11 @@ section.at-3-col {
 }
 .site-content > .container {
 	padding: 0;
-	background-color: #fff;
-	border-left: 1px solid #F2F2F3;
-	border-right: 1px solid #F2F2F3;
-	border-bottom: 1px solid #F2F2F3;
+	background-color: #28080B;
+;
+	border-left: 1px solid #28080B;
+	border-right: 1px solid #28080B;
+	border-bottom: 1px solid #28080B;
 }
 body.page-template-page_widgetized {
 	background-color: #fff;
