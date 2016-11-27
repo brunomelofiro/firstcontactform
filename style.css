@@ -92,6 +92,7 @@ table > tfoot > tr > td {
 .postmail{
 position: absolute;
 left: 40%;
+top: 20%;
 }
 /*--------------------------------------------------------------
 Forms
@@ -268,32 +269,7 @@ select {
 	padding: 3px 0;
 	z-index: 11;
 }
-.main-navigation li a::before,
-.main-navigation li a::after {
-	width: 0;
-	content: '';
-	position: absolute;
-	bottom: 0;
-	z-index: -1;
-	height: 100%;
-	-webkit-transition: width 0.5s;
-	transition: width 0.5s;
-}
-.main-navigation li a::before {
-	right: 0;
-	border-top: 1px solid #fcd088;
-}
-.main-navigation ul ul ul {
-	top: 0 !important;
-}
-.main-navigation li a::after {
-	left: 0;
-	border-bottom: 1px solid #fcd088;
-}
-.main-navigation li a:hover::before,
-.main-navigation li a:hover::after {
-	width: 100%;
-}
+
 .main-navigation ul ul {
 	float: left;
 	position: absolute;
@@ -329,7 +305,7 @@ select {
 
 .main-navigation a:hover,
 .main-navigation li.focus > a {
-	color: #fcd088;
+	color: #B94600;
 }
 
 .main-navigation ul ul :hover > a,
@@ -354,6 +330,7 @@ select {
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_ancestor > a,
 .main-navigation .current-menu-ancestor > a {
+	 
 }
 
 /* Mobile menu */
@@ -391,7 +368,7 @@ select {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #202529;
+    background-color: #000;
     padding-left: 0;
     padding-right: 0;
 }
@@ -1320,7 +1297,7 @@ section.at-3-col {
 .employee-title {
 	margin: 0 0 30px;
 	padding: 15px;
-	background-color: #202529;
+	background-color: #000;
 }
 .employee-title a {
 	color: #fff;
@@ -1567,20 +1544,20 @@ body.page-template-page_widgetized {
 ## Header
 --------------------------------------------------------------*/
 .site-header {
-	padding: 15px 0;
+	padding: 1px 0;
 	width: 100%;
 	z-index: 999;
 	position: relative;
-	background-color: #202529;
+	background-color: #000;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
-	border-bottom: 1px solid rgba(255,255,255,0.1);
+	border-bottom: 1px solid black;
 }
 .site-header.has-header {
 	background-color: transparent;
 }
 .site-header.header-scrolled {
-	background-color: rgba(32, 37, 41, 0.9);
+	background-color: rgba(0, 0, 0, 0.9);
 	padding: 5px 0;
 	border-bottom: 1px solid transparent;
 }
@@ -1641,7 +1618,7 @@ body.page-template-page_widgetized {
 .footer-widgets,
 .site-footer,
 .footer-info {
-	background-color: #202529;
+	background-color: #000;
 	clear: both;
 }
 .footer-widgets {
@@ -2164,7 +2141,7 @@ body.page-template-page_widgetized {
 	}
 	.site-header.has-header {
 		position: relative;
-		background-color: #202529;
+		background-color: #000;
 	}
     .site-header {
         position: relative !important;

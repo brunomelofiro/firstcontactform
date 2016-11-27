@@ -57,7 +57,7 @@ function astrid_custom_styles($custom) {
 	$site_title = get_theme_mod( 'site_title', '#ffffff' );
 	$custom .= ".site-title a,.site-title a:hover { color:" . esc_attr($site_title) . "}"."\n";
 	$site_desc = get_theme_mod( 'site_description', '#BDBDBD' );
-	$custom .= ".site-description { color:000" . esc_attr($site_desc) . "}"."\n";
+	$custom .= ".site-description { color:#000" . esc_attr($site_desc) . "}"."\n";
 
 	$menu_bg    = get_theme_mod( 'menu_bg', '#000' );
 	$menu_rgba 	= astrid_hex2rgba($menu_bg, 0.9);
