@@ -90,9 +90,8 @@ table > tfoot > tr > td {
 }
 
 .postmail{
-position: absolute;
-left: 40%;
-top: 20%;
+position: relative;
+left: 50%;
 }
 /*--------------------------------------------------------------
 Forms
@@ -330,7 +329,7 @@ select {
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_ancestor > a,
 .main-navigation .current-menu-ancestor > a {
-	 
+
 }
 
 /* Mobile menu */
